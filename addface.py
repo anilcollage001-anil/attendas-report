@@ -21,6 +21,7 @@ def get_connection():
         sqlite3.Connection: Database connection object
     """
     conn = sqlite3.connect(DB_PATH)
+
     
     conn.row_factory = sqlite3.Row  # Access columns by name
     

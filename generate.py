@@ -6,6 +6,7 @@ Generates random OTPs and manages OTP verification with expiry.
 import random
 import time
 
+
 # Store OTPs with their creation time: {phone_number: (otp, timestamp)}
 _otp_store = {}
 
@@ -16,7 +17,7 @@ OTP_EXPIRY_SECONDS = 300
 def generate_otp(length=6):
     """
     Generate a random numeric OTP of the given length.
-    
+
     
     Args:
         length (int): Number of digits in the OTP (default: 6)

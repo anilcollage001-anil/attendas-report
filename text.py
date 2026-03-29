@@ -17,7 +17,6 @@ TWILIO_ACCOUNT_SID = "your_account_sid_here"
 TWILIO_AUTH_TOKEN = "your_auth_token_here"
 TWILIO_PHONE_NUMBER = "+1234567890"  # Your Twilio phone number
 
-
 def send_otp_message(phone_number, otp):
     """
     Send an OTP message to the given phone number.
