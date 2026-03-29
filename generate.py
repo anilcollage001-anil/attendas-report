@@ -17,6 +17,7 @@ def generate_otp(length=6):
     """
     Generate a random numeric OTP of the given length.
     
+    
     Args:
         length (int): Number of digits in the OTP (default: 6)
     

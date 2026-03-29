@@ -11,6 +11,7 @@ Flow:
   6. Attendance is marked upon successful verification
 """
 
+
 import datetime
 import sqlite3
 import os
